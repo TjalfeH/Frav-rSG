@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        FraværSG.dk
+    </title>
+
+    <style>
+        .button {
+            border: none;
+            padding: 10px 50px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            margin: 4px 2px;
+            background-color: navajowhite;
+            display: table;
+            margin: -7px auto
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>FraværSG.dk</h2>
+
+    <h2 style="display: table; margin: 30px auto;">Vælg klasse</h2>
+
+    <form action="Input.html">
+
+        <script>
+            function saveCookies(Class) {
+                var today = new Date();
+
+                var expDate = (today.getFullYear() + 1) + '-' + (today.getMonth() + 1) + '-' + today.getDate();
+
+                document.cookie = "class=" + Class + "; expires=" + expDate + ";";
+            }
+        </script>
+
+        <button onclick="saveCookies('1a')" class="button">1a</button><br>
+        <button onclick="saveCookies('2a')" class="button">2a</button><br>
+        <button onclick="saveCookies('3a')" class="button">3a</button><br>
+        <button onclick="saveCookies('1b')" class="button">1b</button><br>
+        <button onclick="saveCookies('2b')" class="button">2b</button><br>
+        <button onclick="saveCookies('3b')" class="button">3b</button><br>
+        <button onclick="saveCookies('1c')" class="button">1c</button><br>
+        <button onclick="saveCookies('2c')" class="button">2c</button><br>
+        <button onclick="saveCookies('3c')" class="button">3c</button><br>
+        <button onclick="saveCookies('1d')" class="button">1d</button><br>
+        <button onclick="saveCookies('2d')" class="button">2d</button><br>
+        <button onclick="saveCookies('3d')" class="button">3d</button><br>
+        <button onclick="saveCookies('1m')" class="button">1m</button><br>
+        <button onclick="saveCookies('2m')" class="button">2m</button><br>
+        <button onclick="saveCookies('3m')" class="button">3m</button><br>
+        <button onclick="saveCookies('1p')" class="button">1p</button><br>
+        <button onclick="saveCookies('2p')" class="button">2p</button><br>
+        <button onclick="saveCookies('1q')" class="button">1q</button><br>
+        <button onclick="saveCookies('2q')" class="button">2q</button><br>
+        <button onclick="saveCookies('1s')" class="button">1s</button><br>
+        <button onclick="saveCookies('2s')" class="button">2s</button><br>
+        <button onclick="saveCookies('3s')" class="button">3s</button><br>
+        <button onclick="saveCookies('1t')" class="button">1t</button><br>
+        <button onclick="saveCookies('2t')" class="button">2t</button><br>
+        <button onclick="saveCookies('3g')" class="button">3t</button><br>
+        <button onclick="saveCookies('1u')" class="button">1u</button><br>
+        <button onclick="saveCookies('2u')" class="button">2u</button><br>
+        <button onclick="saveCookies('3u')" class="button">3u</button><br>
+        <button onclick="saveCookies('1x')" class="button">1x</button><br>
+        <button onclick="saveCookies('2x')" class="button">2x</button><br>
+        <button onclick="saveCookies('3x')" class="button">3x</button><br>
+        <button onclick="saveCookies('1y')" class="button">1y</button><br>
+        <button onclick="saveCookies('2y')" class="button">2y</button><br>
+        <button onclick="saveCookies('3y')" class="button">3y</button><br>
+        <button onclick="saveCookies('1z')" class="button">1z</button><br>
+        <button onclick="saveCookies('2z')" class="button">2z</button><br>
+        <button onclick="saveCookies('3z')" class="button">3z</button><br>
+
+    </form>
+
+
+</body>
+
+</html>
